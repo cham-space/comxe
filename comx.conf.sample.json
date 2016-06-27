@@ -1,0 +1,35 @@
+{
+    "apiUrlPrefix" : "https://api.gomeplus.com/v2",
+
+    "_note":"atomicUrlPrefix 字段已经弃用,建议使用sourceBases进行配置",
+    "atomicUrlPrefix" : "https://atomic.api.gomeplus.com/v2",
+
+    "sourceBases" : [
+        {
+            "_note":"`default` 表示当前Base是默认base",
+            "id":"default",
+            "urlPrefix":"https://atomic.api.gomeplus.com/v2"
+        },
+        {
+            "id":"x-base",
+            "urlPrefix":"https://x-base.api.gomeplus.com/v2"
+        }
+    ],
+
+    "log": {
+        "enabled" : true,
+        "debug": false,
+        "dir" : "/tmp/log"
+    },
+    "cache":{
+        "engine":"redis",
+        "redis":{
+            "servers":["tcp://10.125.2.36:7000", "tcp://10.125.2.36:7001"],
+            "options": {
+                "prefix":"comx-bs:",
+                "exceptions":true,
+                "cluster": "redis"
+            }
+        }
+    }
+}

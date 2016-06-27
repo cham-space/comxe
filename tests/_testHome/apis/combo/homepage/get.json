@@ -1,0 +1,14 @@
+{
+    "nodes":[
+        {
+            "field":"focusImages",
+            "resource": "/cms/ritems?id=3",
+            "integrity": "simple"
+        },
+        {
+            "field":"personalInformation",
+            "resource": ["/user/user?id={}", "$request.url.query.userId"],
+            "integrity": "simple"
+        }
+    ]
+}

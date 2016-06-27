@@ -1,0 +1,1 @@
+The directory is an illegal home for tests.

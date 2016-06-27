@@ -1,0 +1,10 @@
+{
+    "extNodes": [
+        {
+            "field": "poster",
+            "refField": "posterUserId",
+            "resource": "/user/user?id={}",
+            "integrity": "simple"
+        }
+    ]
+}

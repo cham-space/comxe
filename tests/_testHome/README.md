@@ -1,0 +1,1 @@
+The directory is a COMX_HOME for test

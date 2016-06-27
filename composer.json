@@ -1,0 +1,23 @@
+{
+  "name": "cham-space/comx-e",
+  "type": "library",
+  "description": "cham's testing",
+  "keywords": ["templating"],
+  "homepage": "https://github.com/cham-space",
+  "license": "MIT",
+  "version":"1.0.0",
+  "authors": [
+    {
+      "name": "cham",
+      "email": "vccham@163.com",
+      "homepage": "https://github.com/cham-space",
+      "role": "Lead Developer"
+    }
+  ],
+  "support": {
+    "forum": "https://github.com/cham-space"
+  },
+  "require": {
+    "php": ">=5.2.7"
+  }
+}
